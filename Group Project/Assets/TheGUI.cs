@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GUI : MonoBehaviour {
+public class TheGUI : MonoBehaviour {
 	GameController aGameController; 
 	private string stringSeconds;
 	
@@ -11,7 +11,7 @@ public class GUI : MonoBehaviour {
 	}
 	
 	void OnGUI(){
-		GUI.Label (new Rect (0, 0, 170, 30), "Score: " + aGameController.playerScore.ToString (), "box");
+		//GUI.Label (new Rect (0, 0, 170, 30), "Score: " + aGameController.playerScore.ToString (), "box");
 		
 		//color = aGameController.nextColor;
 		//GUI.Label (new Rect (0, Screen.height - 200, 0, 200, 200), GUIContent("Next Color", color), "box");

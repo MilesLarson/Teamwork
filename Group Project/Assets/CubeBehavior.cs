@@ -12,7 +12,7 @@ public class CubeBehavior : MonoBehaviour {
 	
 	//this method instructs that when a game object is clicked, the method in the GameController script called ProcessClickedCube should be run using the gameobject that was clicked and its X and Y coordinates as the argument for the function.
 	void OnMouseDown (){
-		aGameController.ProcessClickedCube (this.gameObject, x, y, this.gameObject.renderer.material.color);
+//		aGameController.ProcessClickedCube (this.gameObject, x, y, this.gameObject.renderer.material.color);
 		//aGameController.ProcessClickedCube(this.gameObject, x, y);	
 	}
 }
